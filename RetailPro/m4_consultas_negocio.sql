@@ -73,10 +73,16 @@ SELECT
 FROM facturacion_por_producto
 ORDER BY total_facturado DESC, id_producto ASC;
 
--- ============================================================
--- HALLAZGOS DE NEGOCIO (completar con los resultados reales)
--- 1. [Indicar la facturacion total, los pedidos y el ticket promedio de marzo de 2024.]
--- 2. [Indicar el ID del producto que mas facturo y el importe generado.]
--- 3. [Indicar un cliente recurrente concreto y cuantos pedidos realizo, o un hallazgo del promedio.]
--- IMPORTANTE: reemplazar estos ejemplos luego de ejecutar las consultas.
--- ============================================================
+-- HALLAZGOS DE NEGOCIO
+
+-- 1. En marzo de 2024, RetailPro registro
+-- 10 pedidos, con una facturacion total de
+-- $6444 y un ticket promedio de $644.40.
+
+-- 2. El producto con ID 1 fue el que mas
+-- facturo, generando $3600 con 3 unidades
+-- vendidas. Representa el 55.87% del total.
+
+-- 3. Los cinco clientes realizaron 2 pedidos
+-- cada uno. El cliente con ID 1 fue el que
+-- mas gasto, con un total de $2640.
